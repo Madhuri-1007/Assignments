@@ -16,12 +16,12 @@ public class Assignment1_DataType {
 		
 		//Person's phone number: "123-456-7890"
 		
-		long PhoneNUmber = 1234567890l;
+		String PhoneNUmber = "123-456-7890";
 		System.out.println("Person's phone number:" +PhoneNUmber);
 		
 		//Amount of money in a customer's bank account: 1000.50
 		
-		double amount = 1000.50;
+		double amount = 1000.50f;
 		System.out.println("Amount of money in a customer's bank account: " +amount);
 		
 		//Person's email address: "john.doe@example.com"
@@ -54,7 +54,7 @@ public class Assignment1_DataType {
 		System.out.println("Current year: " +year);
 		
 		//11.Number of followers on a social media platform: 1,000,000
-		int Number = 1000000;
+		String Number = "10,00,000";
 		System.out.println("Number of followers on a social media platform: " +Number);
 		
 		//12.Rating of a movie: 7.5
