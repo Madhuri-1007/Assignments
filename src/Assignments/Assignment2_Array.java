@@ -30,23 +30,20 @@ public class Assignment2_Array {
 		
 		//Print Semester 3 - Subject 4 and Subject 5 Names.
 		
-		//System.out.println(" Subject 4 and Subject 5 Names.",+  Marks[2][0][3]);
-		
-	      
-		
-		System.out.print(" Subject 4 and Subject 5 Names. " );
-		System.out.print(Marks[2][0][3]);
-		System.out.print(" and ");
-		System.out.println(Marks[2][0][4]);
-		
+		System.out.println(" Subject 4 and Subject 5 Names." +  Marks[2][0][3] +  " and " + Marks[2][0][4] );
 		
 		//Print Semester 5 - Subject 3 and Subject 6 marks
 		
+		System.out.println(" Subject 4 and Subject 5 Names." +  Marks[4][0][2] +  " and " + Marks[4][0][5] );
 		
-		System.out.print(" Subject 3 and Subject 6 Names. " );
-		System.out.print(Marks[4][0][2]);
-		System.out.print(" and ");
-		System.out.print(Marks[4][0][5]);		            
+		
+	
+		
+	      
+		
+		
+		
+			            
 				            
 		
 		
