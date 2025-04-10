@@ -34,7 +34,7 @@ public class Assignment2_Array {
 		
 		//Print Semester 5 - Subject 3 and Subject 6 marks
 		
-		System.out.println(" Subject 4 and Subject 5 Names." +  Marks[4][0][2] +  " and " + Marks[4][0][5] );
+		System.out.println(" Subject 3 and Subject 6 Marks." +  Marks[4][1][2] +  " and " + Marks[4][1][5] );
 		
 		
 	

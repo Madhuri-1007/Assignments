@@ -58,7 +58,7 @@ public class Assignment1_DataType {
 		System.out.println("Number of followers on a social media platform: " +Number);
 		
 		//12.Rating of a movie: 7.5
-		float Movie = 7.5f;
+		float Movie = 7.0f;
 		System.out.println("Rating of a movie: " +Movie);
 		
 		//13.Person's blood type: 'A'
