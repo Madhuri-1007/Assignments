@@ -1,6 +1,6 @@
 package Assignments;
 
-public class Assignment3_EmpGroups extends Assignment3_ClassAndObjects{
+public class Assignment3_EmpGroups extends Assignment1_ClassAndObjects{
 	
 	
 	//create another class called EmpGroups that contains two arrays to store the employee names
