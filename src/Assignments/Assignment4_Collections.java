@@ -75,9 +75,8 @@ public static void main(String[] args)
    
     int[] numbers = {100,200,300,400,500,600,700,800,900,100};
     
-    System.out.println(numbers[4]/10);
-    System.out.println(numbers[5]/10);
-	
+    System.out.println((numbers[4]+numbers[5])/2);
+    
     
     
     /*Create a list of the top 5 highest-grossing movies of all time and print out the third movie on the list.*/
