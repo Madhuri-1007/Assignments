@@ -5,71 +5,47 @@ public class Assignmennt6_ConditionalStatements {
 	
 	public static void main(String[] args) {
 		
-		//If the credit score is above 750, the loan is automatically approved.
 		
-		int score = 720;
-		String customerName = "John Doe";
+		/* Create two arrays to store student names ["Suresh","Mahesh","Naresh"] and
+marks [75, 80, 82] Add 10 marks to each students using assignment operators and
+store it into another array, after adding 10 marks identify the average marks of all
+students*/
+		//create 1st array for student name
+		String[] StudentName = new String[3];
 		
-		System.out.println(customerName);		
+		StudentName[0] = "Suresh";
+		StudentName[1] = "Mahesh";
+		StudentName[2] = "Naresh";
 		
-		if(score >= 750)
-			
-		{
-			
-			System.out.println("Loan is Approved");
-		}
+		//create 2nd array for marks
+		int[] StudentMarks = new int[3];
 		
-		//If the credit score is between 650 and 750, additional checks are performed.
-		else if(score>650 && score<750) {
-			
-			System.out.println("the customer’s income must be at least $50,000 for the loan to be considered.");
-		}
+		StudentMarks[0] = 75;
+		StudentMarks[1] = 80;
+		StudentMarks[2] = 82;
 		
-		//If the credit score is below 650, the loan is denied.
-		else
-		{
-			System.out.println("Loan is Denied");
-		}
+		//Add 10 marks to each student
 		
+		int[] UpdatedMarks = new int[3];
 		
+		UpdatedMarks[0] = (StudentMarks[0]+10);
+		UpdatedMarks[1] = (StudentMarks[1]+10);
+		UpdatedMarks[2] = (StudentMarks[2]+10);
 		
-		/*Employment Status:
-o If the customer’s income is at least 50,000, the system checks whether the customer is
-employed.
-o If the customer is unemployed, the loan is denied.*/
+		System.out.println(StudentName[0] + ":" + UpdatedMarks[0] );
+		System.out.println(StudentName[1] + ":" + UpdatedMarks[1] );
+		System.out.println(StudentName[2] + ":" + UpdatedMarks[2] );
+		
+		float Average = ((UpdatedMarks[0]+UpdatedMarks[1]+UpdatedMarks[2])/3);
+		
+		System.out.println("Average Marks:" +Average);
 		
 		
-		boolean employee = true;
 		
-		Double income = 55000.0d;
 		
-		if( employee == true && income >= 55000.0)
-			
-		{
-			
-		System.out.println("Customer is employee");
-		}
-		else
-		{
-			System.out.println("loan is denied");
-		}
-	
-		/*Debt-to-Income Ratio:
-o If the customer is employed, the system checks the debt-to-income (DTI) ratio.
-o If the DTI ratio is less than 40%, the loan is approved.
-o If the DTI ratio is 40% or greater, the loan is denied.
-		 */
-	float debtToIncomeRatio = 35.0f;
-	
-	if(debtToIncomeRatio < 40.0)
-	{
-		System.out.println("loan is Approved");
-	}
-	else if(debtToIncomeRatio > 40.0)
-	{
-		System.out.println("the loan is denied.");
-	}
-	
+		
+		
+		
 		
 		
 		
