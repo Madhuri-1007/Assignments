@@ -32,6 +32,8 @@ students*/
 		UpdatedMarks[1] = (StudentMarks[1]+10);
 		UpdatedMarks[2] = (StudentMarks[2]+10);
 		
+		System.out.println("Updated Marks :");
+		
 		System.out.println(StudentName[0] + ":" + UpdatedMarks[0] );
 		System.out.println(StudentName[1] + ":" + UpdatedMarks[1] );
 		System.out.println(StudentName[2] + ":" + UpdatedMarks[2] );
@@ -39,23 +41,11 @@ students*/
 		float Average = ((UpdatedMarks[0]+UpdatedMarks[1]+UpdatedMarks[2])/3);
 		
 		System.out.println("Average Marks:" +Average);
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		
 		
 	}
-		
-		
-	
-
 		
 	}
 	
